@@ -1,0 +1,56 @@
+1)	what is version control tool? 
+A) Version control sometimes known as Source code management or Revision Control System. Version control is a software tool that helps a software to make 
+changes in source code and keeps track of every modification to the code. it is a special kind of database. For example, if any mistakes are made, then the 
+team can do the changes compare to the earlier code and help to fix the bugs in that code so that every team can access to change, minimize, make 
+modifications on that code. some of the benefits of version control are:
+     1) A complete change history of every file i.e., creation, deletion and edits the files to their contents.
+     2) Branching and merging: branching keeps multiple streams of work independent from each other while merging provides the facility to merge that work back together, enabling developers to verify the changes on each branch do not conflict.
+     3) Traceability: Being able to trace each change made to the software and connect it to project management and bug tracking software.
+
+
+2) what is repository?
+A: A repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs. We recommend including a README, or a file with information about your project.
+1)In the upper right corner, next to your avatar or identicon, click and then select New repository.
+2)Name your repository hello-world.
+3)Write a short description.
+4) Select Initialize this repository with a README.
+5) Create a repository
+hello-world repository can be a place where you store ideas, resources, or even share and discuss things with others.
+
+
+3)why do we need to use repository in software development?
+A:  A database of information about the software, including data elements, process, inputs, outputs and interrelationships.
+    A development system uses a repository to identify objects and rules for reuse. In Software development, it is a central place in which an aggregation of 
+   data is kept and maintained in a organized way, usually in computer storage.
+
+
+4)	what is GIT? 
+A: Git is a widely used modern version control system. Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control, including commercial projects as well as open source. Developers who have worked with Git are well represented in the pool of available software development talent and it works well on a wide range of operating systems and IDEs (Integrated Development Environments).
+?	Performance
+?	Security
+?	Flexibility
+?	Version control with Git
+
+
+5)	what is github?
+A: GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. 
+GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features, such as a wikis and basic task 
+management tools for every project.
+
+6)	differences between git and github?
+A) Git is a version control system that tracks your changes when working with electronic media, such as software applications. GitHub is a repository for 
+this media and nothing more.
+7) what is pull, push, commit in Git? 
+A)	Commit - committing is the process which records changes in the repository. Commits are done locally.
+B)	Push - pushing sends the recent commit history from your local repository up to GitHub. If you’re the only one working on a repository, 
+                pushing is simple. If there are others accessing the repository, you may need to pull before you can push.
+C)	Pull - a pull grabs any changes from the GitHub repository and merges them into your local repository.
+
+
+8)	what are merge conflicts?
+A)	You can resolve simple merge conflicts that involve competing line changes on GitHub. You can only resolve the merge conflict on GitHub, 
+if your merge conflict is caused by   competing line changes, such as when people make different changes to the same line of the same file on different 
+branches in your Git repository. For all other merge conflicts, you must resolve the merge conflict locally on the command line.
+	this is a repo
+
+
