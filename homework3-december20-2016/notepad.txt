@@ -1,0 +1,59 @@
+1.	How to resolve merge conflicts?
+A:    In GIT merge is act of  interacting another branch into your current working branch.
+ For eg:  If you want make changes of other context and can combine them with your current working context. 
+It makes easy in most cases whether you have to delete, modify, or change you can know the conflict but Git cannot know what is correct.
+To solve merge conflict
+1)	You have to understand what happened?
+2)	To know that $git status so that you can know the status of document whether you have 
+Any changes on it  and it will show the unmerged files.
+3)	Look at the contents of the conflicted files. Git was nice enough to mark the problematic
+Area by emclosing it i.e,, with <<<<<<<<<<< head >>>>>>>>>>>>>> so that it can be easy to solve.
+        To undo a merge 
+•	Git merge –abort
+•	Git rest –hard and start over again. Incase you have made a mistake while resolving a conflict so you can easily undo it.
+
+2.	What is html? how to create a html document?
+A:  Hyper Text Markup Language. It Describes the structure of web Pages.
+      To Create a HTML Document:
+1)	Start Notepad
+2)	Create a new blank document 
+3)	Save filename.html 
+4)	Save.
+5)	On the blank document, you can give the html tags.
+
+
+3.	What is doctype?
+A:   Doctype is not an declaration type, it is an instruction to the web browser about what           version of HTML is written in.
+
+Eg: <!Doctype HTML>
+
+
+
+4.	What is an tag and element in html?
+A:   Tags are used to markup the start and end of an HTML element. 
+   Eg: <tags> <h1> <p> <html> are all html tags
+       An element is used to markup the start and end tags along with paragraph
+<p> This is an element </p>
+Eg:<h1> This is a homework3 </h1> This is called html element because  it includes with the paragraph and tags .
+
+
+
+5.	What is an attribute in HTML?
+A:   All HTML elements can have attributes and provide additional information and also 
+      Specified with the start tag
+For example 
+<p Title=” This is Homework3”>
+In This title is an attribute .
+
+6.	Create a simple html page? write code.
+A:  <!DOCTYPE html>   // DOCTYPE//
+      <html>    
+      <head>  //start //
+      <title> Homework3</title>   //main title//
+      </head>    //end //
+       <body>  //start of the body//
+       <h1> HOMEOWRK3</h1>    //heading//
+        <p>  6 questions </p>   //paragraph// 
+        </body>    //ends the body//
+         </html>  // ending the html//
+

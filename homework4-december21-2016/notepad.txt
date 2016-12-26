@@ -1,0 +1,79 @@
+1)	how to create a list in html? orderlists and un orderlists 
+There are some types to create lists.
+1)	unordered lists: An unordered lists start with  <ul> tag and list  should will be in bullet points in unordered list
+•	list
+•	list
+•	list
+•	list
+                         <ul>
+                          <li> list</li>
+                          <li>list</li>
+                          </ul>
+2)	ordered list:  An Ordered list starts with <ol> tag. List starts with <li> tag
+It can be start with numbers, uppercase , lowercase, upper roman numbers and lowercase roman numbers. <ol type =”a”> it will show lowercase list.
+Eg: <ol>
+      <li>  number </li>
+      <li> Uppercase </li>
+    </ol>
+3)	 Description list: A description list is a list of terms, with a description of each term. <dl> tag defines the list and <dt> tag defines the name and <dd> tag.
+<dl>
+<dt>hw1</dt>
+<dd> submitted</dd>
+<dt> hw2</dt>
+<dd>submitted</dd>
+</dl>
+•	You can also list inside list i.e., called nested lists. 
+
+2)	how to include images in html 
+A: Images are defined with the <img> tag. The <img> tag is empty , it contains attributes only,and does not have a closing tag.
+<img src = “url” alt = “some_text” Style = “width:width;height:height;”>
+Img = img tag
+Src – it is a attribute 
+Alt – Alt is an attribute provides an alternate text for an image.
+Width and height specify the width and height of an image and values are specified in pixels.
+Eg : style = “width:60px;height:60px;”>
+<map> tag is to define an image-map.
+3)	how to take user input in html?
+A: It is the most important form element and element can be displayed in several ways , depending on the TYPE  attribute.
+<input type=”text”> ------- defines a one-line text input field
+<input type=”radio”>------- defines a radio button 
+<input type=”submit”>------ defines a submit button ( to submit the form or anything)
+Eg: <input type=”text” name=”firstName”> ( it will show you in the input box)
+
+4)how to have links to different web pages and link to different part of same webpage? 
+A:  HTML links are hyperlinks. You can click on a link and jump to another document.
+<a href=”urL”>link text</a>
+href attribute specified address and <a> defines a hyperlink
+Where to open the linked document
+1)	_blank – opens the linked document in a new window or tab.
+2)	_self – opens the linked document in the same window/tab as it was clicked.
+3)	_parent – opens the linked document in the parent frame
+4)	_top – opens the linked document in the full body of the window.
+5)	Frame name – opens the linked document in a named frame.
+Some of the colors for the links are
+•	An Unvisited link is underlined and blue
+•	A visited link is underlined and purple
+•	An active link is underlined and red.
+
+5)what is head, body, html element and why do we need them in the page?
+    Head element is a container for all the head elements.
+                  Element can include a title for the document, scripts, style, meta information and more.
+          Body tag defines the document’s body.
+                        Element contains all the contents of an HTML document, such as text, hyperlinks, images,   tables, lists, etc.
+                       Tag also Supports Event attributes and Global Attributes.
+It should be used once i.e., start after the closing head tag and end before closing html tag.
+6)	what are semantic element, descibe about each one of them?
+Semantic elements clearly describes its meaning to both the browser and the developer.
+Non-semantic: <div> and <span>
+Semantic:<form>, <table> and <article> - clearly defines its content
+It allows data to be shared and reused across applications, enterprises and communities.
+Some of the semantic elements are:
+<article>                                      <header>
+<main>                                         <aside>
+<mark>                                          <details>
+<nav>                                             <figcaption>
+<section>                                       <figure>
+<summary>                                    <footer>
+<time>
+
+
