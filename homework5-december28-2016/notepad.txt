@@ -1,0 +1,211 @@
+1) explain all input types with examples?
+	Input Type Text:
+Defines one line text input field
+eg: <input type="text" name="first name">
+    it is a syntax to indicate box type to enter your first name.
+	Input Type Password:
+It defines a password field.
+Eg: <input type="password" name="psw">
+To enter the password in the password box and shows you in circles to hide the password from other users
+	Input Type submit: A button for submitting form data to a form-handler.
+Form-handler is typically a serverpage with a script for processing input data and in the form of Action Attribute.
+Eg: <input type="submit" value="submit">
+  it shows you a submit button, If you click on it, it will be processing.
+	Input Type Reset: Will reset all form values to their default values, if you change the input values.
+Eg: <input type="reset">
+	Input Type Radio:  
+A user Select ONLY ONE of a limited number of choices.
+Eg: <input type="radio" name="gender" value="male">Male
+Radio button shows in circle.
+	Input Type Checkbox:
+ In checkbox we can select one or more number of choices.
+<input Type="checkbox" name="TV" Value="Samsung"> SAMSUNG<br>
+<input type="checkbox" name="TV1" Value="Panasonic"> PANA
+	Input Type Button: 
+<input type="button">
+
+
+	some of the input types are:
+1) color : <input type="color">         8)search 
+2)date                                                 9) tel
+3) date time                                         10) time
+4) date time-local                                 11) url
+5)email                                              12) week
+6)month
+7)range
+2) explain all the input attributes?
+Value: It specifies the initial value for an input field.
+Eg: <input type=”text” name=”FirstName”  value=”manu”>
+Readonly: It specifies input value can only read you can’t edit.
+Eg: <input type=”text” name=”firstname” value=”manu” readonly>
+Disabled: It specifies that input field is disabled and is unusable because if you submit the form it can’t be sent.
+Eg: <input type=”text” name=”firstname” value=”manu” disabled>
+Size:  It specifies the size for the input field
+Eg: <input type=”text” name=”firstname” value=”manu”  size=”10”>
+Maxlength: It specifies the maximum allowed length for the input field.
+If you give specific length, it only accepts that length and it doesn’t exceed more than that.
+Eg: <input type=”text” name=”firstname” value=”manu”  maxlength=”20”>
+Some of the Input attributes added in HTML5 are:
+Autocomplete                              list
+Autofocus                                    min and max
+Form                                            multiple
+Formaction                                   pattern
+Formenctype                                 placeholder
+Formtarget                                     required
+Height and width                           step
+Some of the following attributes for <form>
+1)	autocomplete
+2)	novalidate.
+3) what are sematic elements?
+A: Semantic elements clearly describes its meaning to both the browser and the developer.
+1)	Non-semantic: <div> and <span>
+2)	Semantic:<form>, <table> and <article> - clearly defines its content
+It allows data to be shared and reused across applications, enterprises and communities.
+4)	Diff between article, section, div?
+Article: The <article> tag specifies independent, self-contained content, should make sense on its own and should be possible to distribute it independently from the rest of site.
+Potential sources for the <Article> 
+	Forum post
+	Blog post
+	News story
+	Comment
+Eg:  <article>
+<h1> heading</h1>
+<p> paragraph</p>
+</article>
+Section: The <Section> tag defines sections in a document, such as  chapters, headers, footers, or any other sections of the document.
+Eg: <section>
+<h1>    </h1>
+<p>    </p>
+</article>
+<div>: It defines a division or a section in an HTML document and used to group block-elemts to format them with css.
+
+5)	explain with examples about
+Article: The <article> tag specifies independent, self-contained content, should make sense on its own and should be possible to distribute it independently from the rest of site.
+Potential sources for the <Article> 
+	Forum post
+	Blog post
+	News story
+	Comment
+Eg:  <article>
+<h1> heading</h1>
+<p> paragraph</p>
+</article>
+
+Aside:
+tag defines some content aside from the content it is placed in.
+<p>My family and I visited The Epcot center this summer.</p>
+<aside>
+  <h4>Epcot Center</h4>
+  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+</aside>
+Details: Tag defines additional details that user can view or hide and should not be visible unless the open attribute is set.
+<details>
+<summary>details</summary>
+<p>additional details</p>
+</details>
+Figcaption: Tag defines a caption for a <figure> element. It can be placed as the first or last child inside a  <figure> element.
+<figure>
+<img src-“img.jpg” alt=” rock” width=”128” height=”128”>
+<figcaption> description about the image</figcaption>
+</figure>
+Figure:
+Tag specifies Self-contained content like images, diagrams or graphs
+<figure>
+<img src=”img.jpg” alt=”rock” width=”128” height=”128”>
+</figure>
+
+
+Footer: Tag defines a footer for a document or section. It typically contains information about the author of section, copyright data or links to related documents.
+<footer>
+<p> should contain information about its containing element<p>
+</footer>,
+Header:
+Element Represents for introductory content or a set of navigational links.
+It contains <h1> to <h6>, logo or icon, authorship information.
+<header>
+<h1> main heading</h1>
+<h2> subheading <h2>
+…….
+…
+<h6> displays one by one </h6>
+</header>, 
+Main:
+It specifies the main content of a document and should be unique because it should be not more than one <main> element.
+<main>
+<h1> </h1>
+<p></p>
+<article>
+<h1> </h1>
+<p></p>
+</article>
+</main>,
+Mark:
+Tag defines marked text and it will highlight the text.
+<p> <mark> highlight </mark> the text which you want to mark the text in the content</p>
+Nav: It represents a sections of a page that links to other pages or within page, mainly a section with navigation links.
+<nav>
+<a href=”/HOME/”>HOME</a>
+</nav>
+Section:
+It defines sections in a document such as chapters, headers, footers or any other sections of the document.
+<section>
+<h1> HW5</h1>
+<p> brief about html</p>
+</section>
+Summary: IT defines a visible heading for the <details> element. You can click on heading to view or hide the information.
+<details>
+ <summary>Click it </summary>
+<p> when you click shows the information <p> 
+<p> if you double click on it, it will hide the info </p>
+</details>
+Time: Defines a human-readable date/time and also be used as a remainder or schedules events to users calendar.
+Example:
+<p> The assignment have to submit by <time>12:00</time> with the scheduled day.
+<p> Have to Submit before <time datetime=”2017-01-03 12:00”> HW5</time>.</p>
+6) what are from and what is form validation in html?
+The <form> Element
+The HTML <form> element defines a form that is used to collect user input:
+
+<form>
+
+form elements
+
+</form>
+An HTML form contains form elements.
+Form elements are different types of input elements, like text fields, checkboxes, radio buttons, submit buttons, and more.
+Form Validation:
+<form action="" method="post">
+<fieldset>
+ <legend>Booking Details</legend>
+        <div>
+            <label for="name">Name (required):</label>
+            <input type="text" id="name" name="name" value="" aria-describedby="name-format">
+            <span id="name-format" class="help">Format: firstname lastname</span>
+        </div>
+</fieldset>
+</form>
+7)	Differences between html4 and html5?
+	The syntax is very simple and clear in HTML5 as compared to HTML 4, In HTML 4 there is an external source to declaration type where as in HTML 5 as simple as <! DOCTYPE html>.
+	HTML5 contains built in support for integrated multimedia files into webpages via video and audio tags where as in HTML4 Multimedia was integrated in webpages via third party plugins.
+	In HTML4, it was very difficult to get the geographical locations even through mobile devices but in HTML5 it was extremely easy to access the geographical locations either in website or mobile devices.
+	In HTML4 there are no web sockets, so difficult to communicate between client and server and it takes long polling, where as in HTML5 there are web sockets that allows full duplex communication between client and server.
+	To store data on client side browser’s cache is used but the cache was limited in HTML4 and In HTML5 issue has been addressed via web SQL database and application cache to be access via HTML5’s JavaScript interface.
+	Some changes in tags 
+HTML4	HTML5
+<Applet> removed
+<Acronym> removed 
+
+<a> tag used an anchor as well as referring for a link
+<meta> tag is defined in the header section and contains information about the data
+	<object> added instead of displaying <applet>
+<Abbr> added used for abbreviations in web browser.
+<a> tag is used only as a hyperlink.
+
+<meta> tag is removed.
+Some more tags are added to HTML5, but we don’t have the tags in HTML4.
+For references: http://www.go4expert.com/articles/html4-vs-html5-comparison-t30141/
+
+
+
+
+
